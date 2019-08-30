@@ -46,7 +46,6 @@ public class Person {
 		return String.format("%03d-%02d-%04d", ssn/1000000,ssn%1000000/10000, ssn%10000);
 
 	}
-
 	public String getPlaceDob(){
 		return placeDob;
 	}
@@ -57,18 +56,13 @@ public class Person {
 
 	@Override
 	public String toString(){
-		return String.format("%s %s %s\n, %s %s\n", firstNames, lastNames, ssn, dateOfBirth.DateAndPlaceOfBirth(), placeDob);
-	//	return firstNames + lastNames + ssn + ","
-	//	return "Date and place of birth: " + dateOfBirth.DateAndPlaceOfBirth() + placeDob
-		if(addressLine2.trim().length() > 0) {
-			return String.format("%s\n%s\n%s, %s %s", addressLine1,
-					addressLine2, city, stateAbbreviation, zipCode);
-		} else {
-			return String.format("%s\n%s, %s %s", addressLine1,
-					city, stateAbbreviation, zipCode);
-		}
-
-
+		String sko = "";
+		sko += firstNames + "  " + lastNames + " "+ ssn + ",\n";
+		sko += "Date and place of birth: " + placeDob.getDateOfBirth() + ", " + placeDob.getPlaceOfBirth() + "\n";
+		sko += address.getAddressLine1() +"\n";
+		sko += address.getAddressLine2() + "\n";
+		sko += address.getCity() + " " + address.getStateAbbreviation() + " " + address.getZipCode();
+		return sko;
 	}
 //}
 // TODO provide the getter methods for placeDob and address
