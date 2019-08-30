@@ -19,11 +19,22 @@ public class PlaceDOBTester{
     System.out.println(person5);
 
     System.out.println(person1.olderThan(person2));
+    //true
     System.out.println(person1.hasSameBirthDateAs(person3));
+    //true
     System.out.println(person5.youngerThan(person4));
+    //true
     System.out.println(person2.hasSameBirthDayAs(person4));
+    //true
     System.out.println(person2.olderThan(person1));
+    //false
     System.out.println(person3.youngerThan(person4));
+    //true
+    System.out.println(person4.youngerThan(person5));
+    //false
+    System.out.println(person3.hasSameBirthDayAs(person2));
+    //false
+
 
 
     try(var output =new PrintWriter(new FileOutputStream(
@@ -48,6 +59,10 @@ public class PlaceDOBTester{
           output.println(person22.hasSameBirthDayAs(person42));
           output.println(person22.olderThan(person12));
           output.println(person32.youngerThan(person42));
+          output.println(person42.youngerThan(person52));
+          //false
+          output.println(person32.hasSameBirthDayAs(person22));
+
     		//Copy all your lines above, add an extra "2" to every variable name
     		// and replace every System.out.print or System.out.println
     		// by output.print or output.println

@@ -1,0 +1,164 @@
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Walt  Frazer 342091234,
+Date and place of birth: 1924-01-17, Miami Beach, FL, USA
+32 Murray Rd
+Apt. 3
+Boston MA 45902
+Computers: [Hp, Inspiron 700, 1GB Memory, 800GB Solid State Drive, Price: $829.90 , Hp, intel, 2GB Memory, 1.0TB Solid State Drive, Price: $1345.70 , Hp, intel, 2GB Memory, 500GB Hard Drive, Price: $1100.45 , Hp, intel, 1GB Memory, 2.0TB Solid State Drive, Price: $1208.50 ]
+Computer List, Owner: Walt  Frazer 342091234,
+Date and place of birth: 1924-01-17, Miami Beach, FL, USA
+32 Murray Rd
+Apt. 3
+Boston MA 45902
+Computers: [Hp, Inspiron 700, 1GB Memory, 800GB Solid State Drive, Price: $829.90 , Hp, intel, 2GB Memory, 500GB Hard Drive, Price: $1100.45 ]
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 1999-07-28, San Francisco, CA, USA
+Date and place of birth: 2003-09-18, Orlando,, FL, USA
+Date and place of birth: 1999-07-28, Boston,, MA, USA
+Date and place of birth: 1998-09-18, Istanbul, Turkey
+Date and place of birth: 2007-03-30, Barcelona, Spain
+true
+true
+true
+true
+false
+true
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 1999-07-28, San Francisco, CA, USA
+Date and place of birth: 2003-09-18, Orlando,, FL, USA
+Date and place of birth: 1999-07-28, Boston,, MA, USA
+Date and place of birth: 1998-09-18, Istanbul, Turkey
+Date and place of birth: 2007-03-30, Barcelona, Spain
+true
+true
+true
+true
+false
+true
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 1999-07-28, San Francisco, CA, USA
+Date and place of birth: 2003-09-18, Orlando,, FL, USA
+Date and place of birth: 1999-07-28, Boston,, MA, USA
+Date and place of birth: 1998-09-18, Istanbul, Turkey
+Date and place of birth: 2007-03-30, Barcelona, Spain
+true
+true
+true
+true
+false
+true
+false
+false
+
+TESTS FOR Computer.java:
+Hp, intel, 1GB Memory, 800GB Solid State Drive, Price: $829.90 
+Hp, intel, 2GB Memory, 1.0TB Solid State Drive, Price: $1345.70 
+Hp, intel, 2GB Memory, 500GB Hard Drive, Price: $1100.45 
+Hp, intel, 1GB Memory, 2.0TB Solid State Drive, Price: $1208.50 
+
+TESTS FOR Person.java:
+Jane  Doe 670997843,
+Date and place of birth: 1998-03-28, Newark, NJ, USA
+32 Jackson Rd
+Apt 1000
+Los Angelos CA 09671
+
+TESTS FOR StreetUSAddress.java:
+4400 Vestal Parkway East
+BU Box 24531
+Binghamton, NY 13902
+12 Murray St.
+Bronx, NY 19086
+
+TESTS FOR SimpleDate.java:
+false
+true
+true
+false
+false
+true
+
+TESTS FOR SimpleDate.java:
+false
+true
+true
+false
+false
+true
+
+TESTS FOR SimpleDate.java:
+false
+true
+true
+false
+false
+true
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Walt  Frazer 342091234,
+Date and place of birth: 1924-01-17, Miami Beach, FL, USA
+32 Murray Rd
+Apt. 3
+Boston MA 45902
+Computers: [Hp, Inspiron 700, 1GB Memory, 800GB Solid State Drive, Price: $829.90 , Hp, intel, 2GB Memory, 1.0TB Solid State Drive, Price: $1345.70 , Hp, intel, 2GB Memory, 500GB Hard Drive, Price: $1100.45 , Hp, intel, 1GB Memory, 2.0TB Solid State Drive, Price: $1208.50 ]
+Computer List, Owner: Walt  Frazer 342091234,
+Date and place of birth: 1924-01-17, Miami Beach, FL, USA
+32 Murray Rd
+Apt. 3
+Boston MA 45902
+Computers: [Hp, Inspiron 700, 1GB Memory, 800GB Solid State Drive, Price: $829.90 , Hp, intel, 2GB Memory, 500GB Hard Drive, Price: $1100.45 ]
+
+TESTS FOR Computer.java:
+Hp, intel, 1GB Memory, 800GB Solid State Drive, Price: $829.90 
+Hp, intel, 2GB Memory, 1.0TB Solid State Drive, Price: $1345.70 
+Hp, intel, 2GB Memory, 500GB Hard Drive, Price: $1100.45 
+Hp, intel, 1GB Memory, 2.0TB Solid State Drive, Price: $1208.50 
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 1999-07-28, San Francisco, CA, USA
+Date and place of birth: 2003-09-18, Orlando,, FL, USA
+Date and place of birth: 1999-07-28, Boston,, MA, USA
+Date and place of birth: 1998-09-18, Istanbul, Turkey
+Date and place of birth: 2007-03-30, Barcelona, Spain
+true
+true
+true
+true
+false
+true
+false
+false
+
+TESTS FOR StreetUSAddress.java:
+4400 Vestal Parkway East
+BU Box 24531
+Binghamton, NY 13902
+12 Murray St.
+Bronx, NY 19086
+
+TESTS FOR SimpleDate.java:
+false
+true
+true
+false
+false
+true
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 1999-07-28, San Francisco, CA, USA
+Date and place of birth: 2003-09-18, Orlando,, FL, USA
+Date and place of birth: 1999-07-28, Boston,, MA, USA
+Date and place of birth: 1998-09-18, Istanbul, Turkey
+Date and place of birth: 2007-03-30, Barcelona, Spain
+true
+true
+true
+true
+false
+true
+false
+false

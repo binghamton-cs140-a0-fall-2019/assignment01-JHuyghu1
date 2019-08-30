@@ -15,21 +15,21 @@ public class SimpleDate{
     returnValue.month = m;
     returnValue.day = d;
     return returnValue;
-
   }
+
   public boolean before(SimpleDate other){
     if(this.year < other.year){
-      return true;
-    } else if (this.year = other.year){
-        if(this.month < other.month){
-          return true;
-        } else if (this.month == other.month){
+      return true; }
+     else if (this.year == other.year){
+        if(this.month < other.month) {
+          return true; }
+        else if (this.month == other.month){
             if(this.day < other.day){
-              return true;
-            } else {
-              return false;
-              }
+              return true;}
+            else {
+              return false;}
         }
+      }
+      return false;
     }
-    }
-  }
+}

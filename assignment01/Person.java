@@ -46,11 +46,11 @@ public class Person {
 		return String.format("%03d-%02d-%04d", ssn/1000000,ssn%1000000/10000, ssn%10000);
 
 	}
-	public String getPlaceDob(){
+	public DateAndPlaceOfBirth getPlaceDob(){
 		return placeDob;
 	}
 
-	public String getAddress(){
+	public StreetUSAddress getAddress(){
 		return address;
 	}
 
@@ -64,7 +64,7 @@ public class Person {
 		sko += address.getCity() + " " + address.getStateAbbreviation() + " " + address.getZipCode();
 		return sko;
 	}
-//}
+//
 // TODO provide the getter methods for placeDob and address
 // TODO Override the public String toString() method that is similar to the
 // toString of the StreetUSAddress class and will print a person as:

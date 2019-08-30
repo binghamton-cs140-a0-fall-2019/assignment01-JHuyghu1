@@ -8,23 +8,23 @@ public class ComputerOwnerTester {
 	public static void main(String[] args) {
     DateAndPlaceOfBirth date = new DateAndPlaceOfBirth(1924, 1, 17, "Miami Beach", "FL", "USA");
     StreetUSAddress place = new StreetUSAddress("32 Murray Rd", "Apt. 3", "Boston", "MA", "45902");
-    Person owner = new Person("Walt", "Frazer", "342-09-1234", date, place);
+    Person human = new Person("Walt", "Frazer", "342-09-1234", date, place);
 
     Computer dev1 = new Computer("Hp", "Inspiron 700", 1, 800, true, 829.90);
     Computer dev2 = new Computer("Hp", "intel", 2, 1000, true, 1345.70);
     Computer dev3 = new Computer("Hp", "intel", 2, 500, false, 1100.45);
     Computer dev4 = new Computer("Hp", "intel", 1, 2000, true, 1208.50);
-    ComputerOwner owner = new ComputerOwner(owner);
+    ComputerOwner owner1 = new ComputerOwner(human);
 
-    owner.addComputer(dev1);
-    owner.addComputer(dev2);
-    owner.addComputer(dev3);
-    owner.addComputer(dev4);
-    System.out.println(owner);
+    owner1.addComputer(dev1);
+    owner1.addComputer(dev2);
+    owner1.addComputer(dev3);
+    owner1.addComputer(dev4);
+    System.out.println(owner1);
 
-    owner.removeComputer(1);
-    owner.removeComputer(2);
-    System.out.println(owner);
+    owner1.removeComputer(1);
+    owner1.removeComputer(2);
+    System.out.println(owner1);
 
     try(var output =new PrintWriter(new FileOutputStream(
     			    new File("output.txt"), true /* true means append to file */))) {
@@ -32,13 +32,13 @@ public class ComputerOwnerTester {
 
           DateAndPlaceOfBirth date2 = new DateAndPlaceOfBirth(1924, 1, 17, "Miami Beach", "FL", "USA");
           StreetUSAddress place2 = new StreetUSAddress("32 Murray Rd", "Apt. 3", "Boston", "MA", "45902");
-          Person owner2 = new Person("Walt", "Frazer", "342-09-1234", date2, place2);
+          Person human2 = new Person("Walt", "Frazer", "342-09-1234", date2, place2);
 
           Computer dev12 = new Computer("Hp", "Inspiron 700", 1, 800, true, 829.90);
           Computer dev22 = new Computer("Hp", "intel", 2, 1000, true, 1345.70);
           Computer dev32 = new Computer("Hp", "intel", 2, 500, false, 1100.45);
           Computer dev42 = new Computer("Hp", "intel", 1, 2000, true, 1208.50);
-          ComputerOwner owner2 = new ComputerOwner(owner2);
+          ComputerOwner owner2 = new ComputerOwner(human2);
 
           owner2.addComputer(dev12);
           owner2.addComputer(dev22);
